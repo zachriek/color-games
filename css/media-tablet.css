@@ -1,0 +1,56 @@
+@media ( max-width: 768px ) {
+	.heading h1 {
+		font-size: 2.8rem;
+	}
+
+	.btn {
+		font-size: 10px;
+		padding: 12px 24px;
+		box-shadow: 0 0 1px 2px #fff,
+					0 0 1px 4px #000;
+	}
+
+	.btn:hover {
+		border-radius: 10px;
+		box-shadow: 0 0 1px 2px #000,
+					0 0 1px 4px #fff,
+					0 0 1px 6px #000;
+	}
+
+	.color-area {
+		margin-top: 50px;
+		width: 400px;
+		height: 225px;
+		box-shadow: 0 0 1px 3px #000,
+					0 0 0 6px #fff,
+					0 0 1px 9px #000;
+	}
+
+	.input {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 50px;
+	}
+
+	.red-input,
+	.green-input,
+	.blue-input {
+		margin: 0 30px;
+	}
+
+	input[type="range"] {
+		width: 80px;
+	}
+
+	.red-sqr,
+	.green-sqr,
+	.blue-sqr {
+		width: 40px;
+		height: 40px;
+		margin: 0 0 30px;
+		box-shadow: 0 0 1px 3px #000,
+					0 0 0 6px #fff,
+					0 0 1px 9px #000;
+	}
+}
